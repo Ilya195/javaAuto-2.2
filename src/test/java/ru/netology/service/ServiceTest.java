@@ -21,6 +21,6 @@ public class ServiceTest {
 // Проверки
             .then()
             .statusCode(200)
-            .body("JsonPath", equalTo(468));
+            .body("JsonPath", equalTo(null));
 }         ;
 }
